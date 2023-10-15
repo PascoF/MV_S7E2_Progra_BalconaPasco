@@ -5492,6 +5492,11 @@ GameObject:
   - component: {fileID: 2574108610389275980}
   - component: {fileID: 247748140129411739}
   - component: {fileID: 7790775333294248735}
+  - component: {fileID: 7790775333294248740}
+  - component: {fileID: 7790775333294248739}
+  - component: {fileID: 7790775333294248738}
+  - component: {fileID: 7790775333294248737}
+  - component: {fileID: 7790775333294248736}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -6147,6 +6152,94 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &7790775333294248736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6603672629815309207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6314c36121f9ce94487c2ee15b480c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vida: 1
+  Destreza: 0
+  Fuerza: 0
+  Perdida: {fileID: 8287276303958765429}
+--- !u!114 &7790775333294248737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6603672629815309207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f1346fdc9f4f94fbed86fb733e83f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombr: {fileID: 8893083501562863475}
+  Advertencia: {fileID: 2463461373358507651}
+  PrimeraFase: {fileID: 7456238598923385592}
+  SegundaFase: {fileID: 6259074833436044974}
+--- !u!114 &7790775333294248738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6603672629815309207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68caad354c9515343aab2393f4d1d8dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListaDeElecciones:
+  - {fileID: 7456238598923385592}
+  - {fileID: 6259074833436044974}
+  - {fileID: 1627117990269773443}
+--- !u!114 &7790775333294248739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6603672629815309207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5c5d2e67b1f66418f0132b44c77d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimeraFase: {fileID: 7456238598923385592}
+  Perdida: {fileID: 8287276303958765429}
+--- !u!114 &7790775333294248740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6603672629815309207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98493494114ccb4f9fe7d0a25613635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFieldVida: {fileID: 8889391966832657022}
+  inputFieldDestreza: {fileID: 5916692803110383586}
+  inputFieldFuerza: {fileID: 5705143191043480166}
+  TextoResultado: {fileID: 207074614786880568}
+  executeButton: {fileID: 5460875973428365694}
+  Vida: {fileID: 6108354480425404261}
+  Destreza: {fileID: 6718236918557683246}
+  Fuerza: {fileID: 4349509491717588175}
+  Poder: {fileID: 3411941165734277441}
+  TerceraFase: {fileID: 1627117990269773443}
+  SegundaFase: {fileID: 6259074833436044974}
+  Interfaz: {fileID: 2455830785419736691}
+  PAD: {fileID: 7783131646062432835}
+  Advertencia: {fileID: 6055257606613376393}
 --- !u!224 &7817380678186337162
 RectTransform:
   m_ObjectHideFlags: 0
